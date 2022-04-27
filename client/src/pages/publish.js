@@ -2,7 +2,7 @@ import React from "react";
 
 const Publish = () => {
   return (
-    <div
+    <div className="container"
       style={{
         display: "flex",
         justifyContent: "Left",
