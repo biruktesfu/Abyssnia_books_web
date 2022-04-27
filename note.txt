@@ -1,0 +1,13 @@
+Database
+-----------
+psql -U postgres
+\l   to get a list of all databases
+\c   To connect to a Database use PostgreSQL database command
+\dt	 List available tables
+
+
+Backend
+---------------
+npm init -y
+npm i express pg cors
+npm install --global nodemon
