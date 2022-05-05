@@ -11,6 +11,14 @@ app.use(express.json());
 // Users Web API
 ////////////////////////////////////////////////////////////////////////////////////////////
 
+app.post("/signin", async (req, res) => {
+  res.send("Hello Login");
+});
+
+app.get("/signup", async (req, res) => {
+  res.send("Hello Sign In");
+});
+
 //get all users
 app.get("/users/all", async (req, res) => {
   try {
