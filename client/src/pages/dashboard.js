@@ -10,8 +10,9 @@ const Dashboard = () => {
         height: "100vh",
       }}
     >
-      <h1> Dashboard for GeeksforGeeks is a Computer Science portal for geeks.</h1>
+      <h1> Dashboard for Abyssinian Books is a Books portal for Reader.</h1>
     </div>
+    
   );
 };
 

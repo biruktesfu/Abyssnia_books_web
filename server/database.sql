@@ -1,17 +1,10 @@
-CREATE DATABASE testdb;
+CREATE DATABASE jwt_tutorial;
+CREATE EXTENSION "uuid-ossp";
 CREATE TABLE users(
-    user_id SERIAL PRIMARY KEY,
-    user_name VARCHAR(255) NOT NULL,
-    user_email VARCHAR(255) NOT NULL,
-    user_password VARCHAR(255) NOT NULL
+    user_id uuid PRIMARY KEY DEFAULT uuid_generate_v4(),
+    user_name VARCHAR (255) NOT NULL,
+    user_email VARCHAR (255) NOT NULL,
+    user_password VARCHAR (255) NOT NULL
 );
-CREATE TABLE books(
-    book_id SERIAL PRIMARY KEY,
-    title VARCHAR NOT NULL (255),
-    author VARCHAR NOT NULL (255),
-    genre VARCHAR NOT NULL (255),
-    descr VARCHAR NOT NULL (255),
-    img VARCHAR NOT NULL (255), 
-    ISBN -13 VARCHAR NOT NULL (255),
-    price VARCHAR NOT NULL (255)
-);
+INSERT INTO users (user_name, user_email, user_password)
+VALUES ('henry', 'henrey@gmail.com', '12345678');
