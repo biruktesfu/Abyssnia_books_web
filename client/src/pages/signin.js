@@ -16,7 +16,7 @@ const SignIn = () => {
 
       <div className='mx-5'>
       <form >
-        <div class="form-group">
+        <div class="form-group" action="/signin" method="POST">
           <label for="email">Email address:</label>
           <input type="email" class="form-control" placeholder="Enter email" id="email" />
         </div>

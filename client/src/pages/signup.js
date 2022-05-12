@@ -14,16 +14,15 @@ const SignUp = () => {
         <h1>Sign Up</h1>
       </div>
       <div className="mx-5">
-        <form>
+        <form action="/signup" method="POST">
           <div className="form-row">
             <div className="col-md-4 mb-3">
               <label for="validationDefault01">First name</label>
               <input
                 type="text"
-                className="form-control"
+                class="form-control"
                 id="validationDefault01"
                 placeholder="First name"
-                value="Mark"
                 required
               />
             </div>
@@ -31,10 +30,9 @@ const SignUp = () => {
               <label for="validationDefault02">Last name</label>
               <input
                 type="text"
-                className="form-control"
+                class="form-control"
                 id="validationDefault02"
                 placeholder="Last name"
-                value="Otto"
                 required
               />
             </div>
@@ -59,32 +57,32 @@ const SignUp = () => {
           </div>
           <div className="form-row">
             <div className="col-md-6 mb-3">
-              <label for="validationDefault03">City</label>
+              <label for="validationDefault03">Email</label>
               <input
                 type="text"
                 className="form-control"
                 id="validationDefault03"
-                placeholder="City"
+                placeholder="example@gmail.com"
                 required
               />
             </div>
             <div className="col-md-3 mb-3">
-              <label for="validationDefault04">State</label>
+              <label for="validationDefault04">Phone</label>
               <input
                 type="text"
                 className="form-control"
                 id="validationDefault04"
-                placeholder="State"
+                placeholder="09123456789"
                 required
               />
             </div>
             <div className="col-md-3 mb-3">
-              <label for="validationDefault05">Zip</label>
+              <label for="validationDefault05">Password</label>
               <input
                 type="text"
                 className="form-control"
                 id="validationDefault05"
-                placeholder="Zip"
+                placeholder="Password"
                 required
               />
             </div>
@@ -92,7 +90,7 @@ const SignUp = () => {
           <div className="custom-file ">
             <input type="file" className="custom-file-input" id="customFile" />
             <label className="custom-file-label" for="customFile">
-              Choose file
+              Choose Image For ID
             </label>
           </div>
           <div className="form-group">
@@ -105,7 +103,7 @@ const SignUp = () => {
                 required
               />
               <label className="form-check-label" for="invalidCheck2">
-                Agree to terms and conditions
+                <a href="./about">Agree to terms and conditions</a>
               </label>
             </div>
           </div>

@@ -19,7 +19,7 @@ const Home = () => {
             }}
           >
             <h1>
-              Welcome to GeeksforGeeks.(index.js) <hr />
+              Welcome to Abyssinian Books.(index.js) <hr />
             </h1>
           </div>
         </div>
