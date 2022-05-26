@@ -17,7 +17,7 @@ const SignUp = () => {
         <form action="/signup" method="POST">
           <div className="form-row">
             <div className="col-md-4 mb-3">
-              <label for="validationDefault01">First name</label>
+              <label for="validationDefault01">First Name</label>
               <input
                 type="text"
                 class="form-control"
@@ -27,7 +27,7 @@ const SignUp = () => {
               />
             </div>
             <div className="col-md-4 mb-3">
-              <label for="validationDefault02">Last name</label>
+              <label for="validationDefault02">Last Name</label>
               <input
                 type="text"
                 class="form-control"
