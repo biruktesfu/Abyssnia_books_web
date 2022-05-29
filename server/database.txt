@@ -1,0 +1,10 @@
+POSTGRES COMMANDS
+================================
+psql -U postgres
+\c jwt_tutorial
+
+
+\d   List 
+\l   list of database
+\c jwt_tutorial  connect to jwt-tutorial database as user POSTGRES
+SELECT * From users;

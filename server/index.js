@@ -21,6 +21,12 @@ app.use("/user", require("./routes/userReq"))
 
 app.use("/recom", require("./routes/recommendation"))
 
+app.use("/order", require("./routes/orderBooks"))
+
+app.use("/advert", require("./routes/advertBooks"))
+
+app.use("/publish", require("./routes/publishBook"))
+
 app.listen(5000, () => {
   console. log("server is running on port 5000");
 });
