@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "./Card/Card";
 
 const Recommendation = () => {
   return (
@@ -14,6 +15,10 @@ const Recommendation = () => {
         <h1>
           Recommendation <hr />
         </h1>
+      </div>
+      
+      <div>
+        <Card />
       </div>
     </div>
   );
