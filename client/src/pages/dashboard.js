@@ -1,4 +1,4 @@
-import { Router, Routes, Route, Outlet } from "react-router-dom";
+import { Router, Routes, Route } from "react-router-dom";
 import Sidebar from "../components/DashBoard/Sidebar/Sidebar";
 import Topbar from "../components/DashBoard/Topbar/Topbar";
 
@@ -16,7 +16,6 @@ function dashboard() {
       <Topbar />
       <div>
         <Sidebar />
-          <Routes>
             <Route exact path="/home" element={<Home />} />
             <Route path="/users" element={<UserList />} />
             <Route path="/user/:userId" element={<User />} />
@@ -24,8 +23,6 @@ function dashboard() {
             <Route path="/products" element={<ProductList />} />
             <Route path="/product/:productId" element={<Product />} />
             <Route path="/newproduct" element={<NewProduct />} />
-          </Routes>
-          <Outlet/>
       </div>
     </div>
   );
