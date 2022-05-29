@@ -15,28 +15,28 @@ const Navbar = () => {
         <Bars />
 
         <NavMenu>
-        <NavLink to="/" activeStyle>
+        <NavLink to="/" activestyle="true">
             Home
           </NavLink>
-          <NavLink to="/library" activeStyle>
+          <NavLink to="/library" activestyle="true">
             Library
           </NavLink>
-          <NavLink to="/publish" activeStyle>
+          <NavLink to="/publish" activestyle="true">
             Publish
           </NavLink>
-          <NavLink to="/profile" activeStyle>
+          <NavLink to="/profile" activestyle="true">
             Profile
           </NavLink>
-          <NavLink to="/dashboard" activeStyle>
+          <NavLink to="/dashboard" activestyle="true">
             Dashboard
           </NavLink>
-          <NavLink to="/about" activeStyle>
+          <NavLink to="/about" activestyle="true">
             About
           </NavLink>
-          <NavLink to="/events" activeStyle>
+          <NavLink to="/events" activestyle="true">
             Events
           </NavLink>
-          <NavLink to="/sign-up" activeStyle>
+          <NavLink to="/sign-up" activestyle="true">
             Sign Up
           </NavLink>
           {/* Second Nav */}
