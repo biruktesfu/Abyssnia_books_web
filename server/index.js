@@ -15,6 +15,12 @@ app.use("/auth", require("./routes/jwtAuth"))
 
 app.use("/dashboard", require("./routes/dashboard"))
 
+app.use("/book", require("./routes/bookReq"))
+
+app.use("/user", require("./routes/userReq"))
+
+app.use("/recom", require("./routes/recommendation"))
+
 app.listen(5000, () => {
   console. log("server is running on port 5000");
 });
