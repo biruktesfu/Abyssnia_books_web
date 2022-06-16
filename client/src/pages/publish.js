@@ -18,45 +18,45 @@ const Publish = () => {
         <form action="/publish" method="POST">
           <div className="form-row">
             <div className="col-md-4 mb-3">
-              <label for="validationDefault01">Book Name</label>
+              <label htmlFor="validationDefault01">Book Name</label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="validationDefault01"
                 placeholder="First name"
                 required
               />
             </div>
             <div className="col-md-4 mb-3">
-              <label for="validationDefault02">Author Name</label>
+              <label htmlFor="validationDefault02">Author Name</label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="validationDefault02"
                 placeholder="Last name"
                 required
               />
             </div>
             <div className="col-md-4 mb-3">
-              <label for="validationDefault02">Description</label>
+              <label htmlFor="validationDefault02">Description</label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="validationDefault02"
                 placeholder="Last name"
                 required
               />
             </div>
-            <div class="col-md-4 mb-3 form-group">
-              <label for="sel1">Select a Genre :</label>
-              <select class="form-control" id="sel1">
+            <div className="col-md-4 mb-3 form-group">
+              <label htmlFor="sel1">Select a Genre :</label>
+              <select className="form-control" id="sel1">
                 <option>Action</option>
                 <option>Adventure</option>
                 <option>Art & Photography</option>
                 <option>Business & Economics</option>
                 <option>Biography & Memoirs</option>
                 <option>Comics & Graphic Novels</option>
-                <option>Health , Family & LifeSytle</option>
+                <option>Health , Family & LifeStyle</option>
                 <option>Detective & Mystery</option>
                 <option>Horror</option>
                 <option>Short Stories</option>
@@ -68,61 +68,61 @@ const Publish = () => {
               </select>
             </div>
             <div className="col-md-4 mb-3">
-              <label for="validationDefault02">Description</label>
+              <label htmlFor="validationDefault02">Description</label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="validationDefault02"
                 placeholder="Last name"
                 required
               />
             </div>
             <div className="col-md-4 mb-3">
-              <label for="validationDefault02">ISBN-13</label>
+              <label htmlFor="validationDefault02">ISBN-13</label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="validationDefault02"
                 placeholder="Last name"
                 required
               />
             </div>
             <div className="col-md-4 mb-3">
-              <label for="validationDefault02">Price</label>
+              <label htmlFor="validationDefault02">Price</label>
               <input
                 type="number"
-                class="form-control"
+                className="form-control"
                 id="validationDefault02"
                 placeholder="$ 4.00"
                 required
               />
             </div>
-            <div class="input-group mb-3">
-              <div class="input-group-prepend">
-                <span class="input-group-text">Upload Books Image</span>
+            <div className="input-group mb-3">
+              <div className="input-group-prepend">
+                <span className="input-group-text">Upload Books Image</span>
               </div>
-              <div class="custom-file">
+              <div className="custom-file">
                 <input
                   type="file"
-                  class="custom-file-input"
+                  className="custom-file-input"
                   id="inputGroupFile01"
                 />
-                <label class="custom-file-label" for="inputGroupFile01">
+                <label className="custom-file-label" htmlFor="inputGroupFile01">
                   Choose file
                 </label>
               </div>
             </div>
-            <div class="input-group mb-3">
-              <div class="input-group-prepend">
-                <span class="input-group-text">Upload Book </span>
+            <div className="input-group mb-3">
+              <div className="input-group-prepend">
+                <span className="input-group-text">Upload Book </span>
               </div>
-              <div class="custom-file">
+              <div className="custom-file">
                 <input
                   type="file"
-                  class="custom-file-input"
+                  className="custom-file-input"
                   id="inputGroupFile01"
                 />
-                <label class="custom-file-label" for="inputGroupFile01">
+                <label className="custom-file-label" htmlFor="inputGroupFile01">
                   Choose file
                 </label>
               </div>
@@ -137,7 +137,7 @@ const Publish = () => {
                 id="invalidCheck2"
                 required
               />
-              <label className="form-check-label" for="invalidCheck2">
+              <label className="form-check-label" htmlFor="invalidCheck2">
                 <a href="./about">Agree to terms and conditions</a>
               </label>
             </div>

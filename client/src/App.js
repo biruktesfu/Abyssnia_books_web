@@ -21,7 +21,7 @@ function App() {
         <Route path="/library" element={<Library/>} />
         <Route path="/publish" element={<Publish/>} />
         <Route path="/profile" element={<Profile/>} />
-        <Route path="/dashboard" element={<Dashboard/>} />
+        <Route path="/dashboard/*" element={<Dashboard/>} />
         <Route path="/about" element={<About />} />
         <Route path="/events" element={<Events />} />
         <Route path="/sign-up" element={<SignUp />} />

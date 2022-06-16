@@ -17,27 +17,27 @@ const SignUp = () => {
         <form action="/signup" method="POST">
           <div className="form-row">
             <div className="col-md-4 mb-3">
-              <label for="validationDefault01">First Name</label>
+              <label htmlFor="validationDefault01">First Name</label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="validationDefault01"
                 placeholder="First name"
                 required
               />
             </div>
             <div className="col-md-4 mb-3">
-              <label for="validationDefault02">Last Name</label>
+              <label htmlFor="validationDefault02">Last Name</label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="validationDefault02"
                 placeholder="Last name"
                 required
               />
             </div>
             <div className="col-md-4 mb-3">
-              <label for="validationDefaultUsername">Username</label>
+              <label htmlFor="validationDefaultUsername">Username</label>
               <div className="input-group">
                 <div className="input-group-prepend">
                   <span className="input-group-text" id="inputGroupPrepend2">
@@ -57,7 +57,7 @@ const SignUp = () => {
           </div>
           <div className="form-row">
             <div className="col-md-6 mb-3">
-              <label for="validationDefault03">Email</label>
+              <label htmlFor="validationDefault03">Email</label>
               <input
                 type="text"
                 className="form-control"
@@ -67,7 +67,7 @@ const SignUp = () => {
               />
             </div>
             <div className="col-md-3 mb-3">
-              <label for="validationDefault04">Phone</label>
+              <label htmlFor="validationDefault04">Phone</label>
               <input
                 type="text"
                 className="form-control"
@@ -77,7 +77,7 @@ const SignUp = () => {
               />
             </div>
             <div className="col-md-3 mb-3">
-              <label for="validationDefault05">Password</label>
+              <label htmlFor="validationDefault05">Password</label>
               <input
                 type="text"
                 className="form-control"
@@ -89,8 +89,8 @@ const SignUp = () => {
           </div>
           <div className="custom-file ">
             <input type="file" className="custom-file-input" id="customFile" />
-            <label className="custom-file-label" for="customFile">
-              Choose Image For ID
+            <label className="custom-file-label" htmlFor="customFile">
+              Choose Image htmlFor ID
             </label>
           </div>
           <div className="form-group">
@@ -102,7 +102,7 @@ const SignUp = () => {
                 id="invalidCheck2"
                 required
               />
-              <label className="form-check-label" for="invalidCheck2">
+              <label className="form-check-label" htmlFor="invalidCheck2">
                 <a href="./about">Agree to terms and conditions</a>
               </label>
             </div>
