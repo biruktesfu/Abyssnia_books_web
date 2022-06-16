@@ -21,7 +21,7 @@ const SignIn = () => {
           <input type="email" className="form-control" placeholder="Enter email" id="email" />
         </div>
         <div className="form-group">
-          <label for="pwd">Password:</label>
+          <label htmlFor="pwd">Password:</label>
           <input type="password" className="form-control" placeholder="Enter password" id="pwd" />
         </div>
         <div className="form-group form-check">

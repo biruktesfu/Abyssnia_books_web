@@ -1,9 +1,9 @@
 import React, { Fragment } from "react";
 
 //Components
-import SearchBar from "../components/SearchBar";
-import Recommendation from "../components/Recommendation";
-import Explore from "../components/Explore";
+import SearchBar from "../../../components/SearchBar/SearchBar";
+import Recommendation from "../../../components/Recommendation/Recommendation";
+import Explore from "../../../components/Explore/Explore";
 
 const Home = () => {
   return (

@@ -1,16 +1,16 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/index";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages";
-import Library from "./pages/library";
-import Publish from "./pages/publish";
-import Profile from "./pages/profile";
-import Dashboard from "./pages/dashboard";
-import About from "./pages/about";
-import Events from "./pages/events";
-import SignUp from "./pages/signup";
-import SignIn from "./pages/signin";
+import Home from "./pages/Main/index/index";
+import Library from "./pages/Main/library/library";
+import Publish from "./pages/Main/publish/publish";
+import Dashboard from "./pages/Main/dashboard/dashboard";
+import Profile from "./pages/Main/profile/profile";
+import About from "./pages/Main/about/about";
+import Events from "./pages/Main/events/events";
+import SignUp from "./pages/Main/signup/signup";
+import SignIn from "./pages/Main/signin/signin";
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-// import "./profile.css";
+import "./profile.css"
 
 const Profile = () => {
   return (
@@ -13,23 +13,8 @@ const Profile = () => {
       }}
     >
       <h1>Profile</h1>
-      <div className="container" style={{marginTop: "80px"}}>
+      <div className="container" style={{marginTop: "60px"}}>
         <div className="main-body">
-          {/* <!-- Breadcrumb --> 
-          <nav aria-label="breadcrumb" className="main-breadcrumb">
-            <ol className="breadcrumb">
-              <li className="breadcrumb-item">
-                <a href="#done">Home</a>
-              </li>
-              <li className="breadcrumb-item">
-                <a href="#done">User</a>
-              </li>
-              <li className="breadcrumb-item active" aria-current="page">
-                User Profile
-              </li>
-            </ol>
-          </nav>
-           <!-- /Breadcrumb --> */}
 
           <div className="container">
             <div className="row">

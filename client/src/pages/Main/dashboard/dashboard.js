@@ -1,14 +1,14 @@
 import { Routes, Route, Outlet } from "react-router-dom";
-import Sidebar from "../components/DashBoard/Sidebar/Sidebar";
-import Topbar from "../components/DashBoard/Topbar/Topbar";
+import Sidebar from "../../../components/DashBoard/Sidebar/Sidebar";
+import Topbar from "../../../components/DashBoard/Topbar/Topbar";
 
-import Home from "./DashboardPages/Home/Home";
-import UserList from "./DashboardPages/userList/UserList";
-import User from "./DashboardPages/user/User";
-import NewUser from "./DashboardPages/newUser/NewUser";
-import ProductList from "./DashboardPages/productList/ProductList";
-import Product from "./DashboardPages/product/Product";
-import NewProduct from "./DashboardPages/newProduct/NewProduct";
+import Home from "../../Dashboard/Home/Home";
+import UserList from "../../Dashboard/userList/UserList";
+import User from "../../Dashboard/user/User";
+import NewUser from "../../Dashboard/newUser/NewUser";
+import ProductList from "../../Dashboard/productList/ProductList";
+import Product from "../../Dashboard/product/Product";
+import NewProduct from "../../Dashboard/newProduct/NewProduct";
 
 function dashboard() {
   return (
