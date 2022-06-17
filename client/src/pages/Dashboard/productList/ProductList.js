@@ -61,9 +61,12 @@ export default function ProductList() {
   return (
     <div className="productList">
       <DataGrid
+      autoPageSize pagination
+      autoHeight 
         rows={data}
         disableSelectionOnClick
         columns={columns}
+        columnBuffer={10}
         pageSize={8}
         checkboxSelection
       />

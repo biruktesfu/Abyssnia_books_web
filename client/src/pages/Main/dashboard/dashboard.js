@@ -34,7 +34,10 @@ function dashboard() {
         <Link to="product/:productId">Product</Link> |{" "}
         <Link to="newproduct">New Product</Link> |{" "}
       </nav>
+      <div>
       <Outlet />
+      
+      </div>
       
       {/* <Topbar />
       <div>

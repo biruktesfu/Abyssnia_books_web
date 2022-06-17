@@ -60,10 +60,13 @@ export default function UserList() {
 
   return (
     <div className="userList">
-      <DataGrid
+      <DataGrid 
+      autoPageSize pagination
+      autoHeight 
         rows={data}
         disableSelectionOnClick
         columns={columns}
+        columnBuffer={10}
         pageSize={8}
         checkboxSelection
       />
