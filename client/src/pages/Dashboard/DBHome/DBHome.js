@@ -4,7 +4,7 @@ import Chart from "../../../components/DashBoard/Chart/Chart";
 import { userData } from "../../../dummyData";
 import WidgetSm from "../../../components/DashBoard/widgetSm/WidgetSm";
 import WidgetLg from "../../../components/DashBoard/widgetLg/WidgetLg";
-import "./home.css";
+import "./dbhome.css";
 import { Fragment } from "react";
 
 export default function Home() {
