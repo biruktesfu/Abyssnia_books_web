@@ -17,9 +17,21 @@ CREATE TABLE books(
     book_img bytea ,
     book_file bytea
 );
+CREATE TABLE order(
+    user_id uuid PRIMARY KEY DEFAULT uuid_generate_v4(),
+    user_name VARCHAR (255) NOT NULL,
+    user_order VARCHAR (255) NOT NULL,
+    user_order_st VARCHAR (255) NOT NULL,
+);
+CREATE TABLE advert(
+    user_id uuid PRIMARY KEY DEFAULT uuid_generate_v4(),
+    user_name VARCHAR (255) NOT NULL,
+    user_advert VARCHAR (255) NOT NULL,
+    user_advert_st VARCHAR (255) NOT NULL,
+);
+
 INSERT INTO users (user_name, user_email, user_password)
 VALUES ('henry', 'henrey@gmail.com', '12345678');
-==========================================================================
 
 INSERT INTO books (
     book_name ,
@@ -40,19 +52,4 @@ values (
 'book_price',
 pg_read_file ('C:\Users\Public\Pictures\1.jpg')::bytea, 
 pg_read_file('C:\Users\Public\Pictures\1.jpg')::bytea );
-
-
-
-POSTGRES COMMANDS
-================================
-psql -U postgres
-\c jwt_tutorial
-
-
-\d   List 
-\l   list of database
-\c jwt_tutorial  connect to jwt-tutorial database as user POSTGRES
-SELECT * From users;
-SELECT * From books;
-
 
